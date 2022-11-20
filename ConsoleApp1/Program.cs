@@ -8,8 +8,7 @@ class Program
         var cards = new Cards();
         InitGame(out var players);
 
-        //GA TEST LOL'D LOL'D2 DS2 SDG
-        //SDASDASDsdadsada dssdjjkg
+    
         for (int i = 0; i < 150; i++)
         {
             var c = cards.GetCard();
@@ -26,10 +25,7 @@ class Program
 
 
 
-        /*
-        List<Player> players = null;
-        InitGame(out players);
-        */
+    
     }
 
 
