@@ -7,7 +7,7 @@ class Program
 
         var cards = new Cards();
         InitGame(out var players);
-        //Тестовый цикл
+        //Тестовый цикл поменять задачу
         for (int i = 0; i < 150; i++)
         {
             var c = cards.GetCard();
