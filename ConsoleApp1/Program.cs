@@ -9,7 +9,7 @@ class Program
         InitGame(out var players);
 
         //GA TEST LOL'D LOL'D2 DS2 SDG
-        //SDASDASDsdadsada
+        //SDASDASDsdadsada dssdjjkg
         for (int i = 0; i < 150; i++)
         {
             var c = cards.GetCard();
