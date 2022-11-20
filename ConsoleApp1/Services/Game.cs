@@ -127,7 +127,7 @@ namespace Game21.Services
         static void EndGame(ref List<Player> players)
         {
 
-            Player Winner = null;
+            Player? Winner = null;
 
             foreach (var player in players)
             {
