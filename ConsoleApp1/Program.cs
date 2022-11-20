@@ -7,9 +7,7 @@ class Program
 
         var cards = new Cards();
         InitGame(out var players);
-
-        //GA TEST LOL'D LOL'D2 DS2 SDG
-        //SDASDASDsdadsada dssdjjkg
+       
         for (int i = 0; i < 150; i++)
         {
             var c = cards.GetCard();
@@ -18,18 +16,10 @@ class Program
                 Console.WriteLine("Колода закончилась");
                 cards.ReturnAllCards();
                 c = cards.GetCard();
-
-
             }
             Console.WriteLine($"Rank: {c?.rank}\t Color: {c?.color}");
         }
-
-
-
-        /*
-        List<Player> players = null;
-        InitGame(out players);
-        */
+       
     }
 
 
@@ -45,10 +35,8 @@ class Program
     }
     static void InitBots(ref List<Player> players)
     {
-
         Console.WriteLine("How many bots play in game?");
         int countBots = int.Parse((Console.ReadLine() ?? "3"));
-
         for (int i = 0; i < countBots; i++)
             players.Add(new Player(Console.ReadLine(), true));
     }
