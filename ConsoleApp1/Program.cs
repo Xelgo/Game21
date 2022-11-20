@@ -28,7 +28,7 @@ class Program
 
         /*
         List<Player> players = null;
-        InitGame(out players);
+        InitGame(out players);dsds
         */
     }
 
