@@ -7,7 +7,7 @@ class Program
 
         var cards = new Cards();
         InitGame(out var players);
-       
+
         for (int i = 0; i < 150; i++)
         {
             var c = cards.GetCard();
@@ -19,7 +19,7 @@ class Program
             }
             Console.WriteLine($"Rank: {c?.rank}\t Color: {c?.color}");
         }
-       
+
     }
 
 
@@ -30,7 +30,7 @@ class Program
         Console.WriteLine("Your Name?");
         Player player = new Player(Console.ReadLine(), false);
         players.Add(player);
-
+        //ALLO
         InitBots(ref players);
     }
     static void InitBots(ref List<Player> players)
