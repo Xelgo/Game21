@@ -8,7 +8,7 @@ class Program
         var cards = new Cards();
         InitGame(out var players);
 
-
+        //GA
 
         for (int i = 0; i < 150; i++)
         {
