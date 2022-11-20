@@ -2,14 +2,32 @@
 {
     internal enum Rank
     {
-        Ace = 1,
+        Two = 0,
+        Free,
+        Four,
+        five,
+        six,
+        seven,
+        eight,
+        Nine,
+        Ten, 
         Jack,
         Queen,
         King,
-        Ten,
-        Nine,
-        eight,
-        seven,
-        six,
+        Ace,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
