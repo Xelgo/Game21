@@ -36,7 +36,7 @@ class Program
         Console.WriteLine("Your Name?");
         Player player = new Player(Console.ReadLine(), false);
         players.Add(player);
-
+        //ALLO
         InitBots(ref players);
     }
     static void InitBots(ref List<Player> players)
