@@ -8,7 +8,7 @@ class Program
         var cards = new Cards();
         InitGame(out var players);
 
-        //GA TEST LOL'D
+        //GA TEST LOL'D LOL'D2
 
         for (int i = 0; i < 150; i++)
         {
