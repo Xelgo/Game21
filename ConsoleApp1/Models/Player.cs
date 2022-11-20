@@ -3,13 +3,10 @@
     internal class Player
     {
         
-        
-     
+       
         public bool _active { get; set; }
 
-        public int _points { get; set; } // Спросить у брата почему,
-                                         // когда отсутствует set нельзя в
-                                         // методе класса всё таки поменять переменную
+        public int _points { get; private set; } // Надо было не убирать set, а делать private set.
 
         public bool _AI { get; }
         public string _name { get;}
