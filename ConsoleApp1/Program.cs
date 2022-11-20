@@ -22,13 +22,13 @@ enum Rank
 class Card
 
 {
-    public Color color { get;}
-    public Rank rank {get;}
+    public Color color { get; }
+    public Rank rank { get; }
 
     public Card(Color color, Rank rank)
     {
         this.color = color;
-        this.rank = rank;
+        this.rank = rank; //test git
     }
 }
 
@@ -36,7 +36,7 @@ class Cards
 {
     private List<Card> cards;
 
-    public List<Card>  GetCards()
+    public List<Card> GetCards()
     {
         return cards;
     }
@@ -47,7 +47,7 @@ class Cards
     }
     public void Reshaffle(int Coint = 1)
     {
-        
+
 
         Random random = new Random();
         for (int j = 0; j < Coint; j++)
@@ -66,7 +66,7 @@ class Cards
 
     public Card? GetCard()
     {
-        if(cards.Count == 0) 
+        if (cards.Count == 0)
             return null;
 
         var card = cards[cards.Count - 1];
@@ -79,7 +79,7 @@ class Cards
         cards.Clear();
         foreach (Color color in Enum.GetValues(typeof(Color)))
         {
-           foreach (Rank rank in Enum.GetValues(typeof(Rank)))
+            foreach (Rank rank in Enum.GetValues(typeof(Rank)))
             {
                 cards.Add(new Card(color, rank));
             }
@@ -135,7 +135,7 @@ class Program
             }
             Console.WriteLine($"Rank: {c?.rank}\t Color: {c?.color}");
         }
-       
+
 
 
         /*
